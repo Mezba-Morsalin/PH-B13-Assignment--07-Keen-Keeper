@@ -4,167 +4,251 @@
     "name": "Arafat Hossain",
     "picture": "https://i.ibb.co.com/236ZQJQ1/ayman-ahmed-QZOd-T2j-DETU-unsplash.jpg",
     "email": "arafat.hossain@gmail.com",
+    "phone": "+8801712345678",
     "days_since_contact": 18,
     "status": "overdue",
     "tags": ["college", "close friend"],
     "bio": "We studied CSE together at university. Always talks about startups and new tech ideas.",
     "goal": 14,
-    "next_due_date": "2026-03-28"
+    "next_due_date": "2026-03-28",
+    "preferred_contact": "Call",
+    "relationship": "Friend",
+    "interactions": [
+      { "type": "Call", "note": "Discussed startup ideas", "date": "2026-03-01" }
+    ]
   },
   {
     "id": 2,
     "name": "Nusrat Jahan",
     "picture": "https://i.ibb.co.com/ccbQd4XD/pervaiz-khan-ATr-n-YVn-Vpc-unsplash.jpg",
     "email": "nusrat.jahan@gmail.com",
+    "phone": "+8801812345678",
     "days_since_contact": 12,
     "status": "almost due",
     "tags": ["school", "best friend"],
     "bio": "School friend since class 6. We still share memes and talk about life updates.",
     "goal": 14,
-    "next_due_date": "2026-04-16"
+    "next_due_date": "2026-04-16",
+    "preferred_contact": "Text",
+    "relationship": "Best Friend",
+    "interactions": [
+      { "type": "Text", "note": "Shared funny memes", "date": "2026-04-10" }
+    ]
   },
   {
     "id": 3,
     "name": "Mahim Chowdhury",
     "picture": "https://i.ibb.co.com/93gqPTLH/shazaf-zafar-90-6-Egb-Agek-unsplash.jpg",
     "email": "mahim.chowdhury@gmail.com",
+    "phone": "+8801912345678",
     "days_since_contact": 5,
     "status": "on-track",
     "tags": ["gym", "fitness"],
     "bio": "Met at the gym. We motivate each other to stay consistent with workouts.",
     "goal": 10,
-    "next_due_date": "2026-04-19"
+    "next_due_date": "2026-04-19",
+    "preferred_contact": "Call",
+    "relationship": "Friend",
+    "interactions": [
+      { "type": "Call", "note": "Workout plan", "date": "2026-04-12" }
+    ]
   },
   {
     "id": 4,
     "name": "Farzana Akter",
     "picture": "https://i.ibb.co.com/wrBXVhv6/anil-sharma-S3i-OXq-Vlh5s-unsplash.jpg",
     "email": "farzana.akter@gmail.com",
+    "phone": "+8801612345678",
     "days_since_contact": 21,
     "status": "overdue",
     "tags": ["office", "colleague"],
     "bio": "Worked together on a web development project. Very helpful and organized.",
     "goal": 14,
-    "next_due_date": "2026-03-25"
+    "next_due_date": "2026-03-25",
+    "preferred_contact": "Video",
+    "relationship": "Colleague",
+    "interactions": [
+      { "type": "Video", "note": "Project meeting", "date": "2026-03-05" }
+    ]
   },
   {
     "id": 5,
     "name": "Rafiul Islam",
     "picture": "https://i.ibb.co.com/KjPrFKh0/majhar-mj-V-e-FGq6c8-Yk-unsplash.jpg",
     "email": "rafiul.islam@gmail.com",
+    "phone": "+8801512345678",
     "days_since_contact": 9,
     "status": "on-track",
     "tags": ["neighbor", "childhood"],
     "bio": "Grew up in the same neighborhood. We still hang out during Eid holidays.",
     "goal": 14,
-    "next_due_date": "2026-04-20"
+    "next_due_date": "2026-04-20",
+    "preferred_contact": "Call",
+    "relationship": "Friend",
+    "interactions": [
+      { "type": "Call", "note": "Eid meetup plan", "date": "2026-04-11" }
+    ]
   },
   {
     "id": 6,
     "name": "Tania Rahman",
     "picture": "https://i.ibb.co.com/XrYFqjNH/abhinav-roy-4j3u-Ocaxr-0-unsplash.jpg",
     "email": "tania.rahman@gmail.com",
+    "phone": "+8801412345678",
     "days_since_contact": 13,
     "status": "almost due",
     "tags": ["university", "project partner"],
     "bio": "Worked on multiple group projects together. Great at UI/UX design.",
     "goal": 14,
-    "next_due_date": "2026-04-15"
+    "next_due_date": "2026-04-15",
+    "preferred_contact": "Text",
+    "relationship": "Friend",
+    "interactions": [
+      { "type": "Text", "note": "UI feedback", "date": "2026-04-09" }
+    ]
   },
   {
     "id": 7,
     "name": "Sabbir Ahmed",
     "picture": "https://i.ibb.co.com/mCyYmb6v/bapi-debnath-Yw1-L0qa9m-Y-unsplash.jpg",
     "email": "sabbir.ahmed@gmail.com",
+    "phone": "+8801312345678",
     "days_since_contact": 3,
     "status": "on-track",
     "tags": ["gaming", "online friend"],
     "bio": "Met through online gaming. We play PUBG and discuss tech gear.",
     "goal": 7,
-    "next_due_date": "2026-04-17"
+    "next_due_date": "2026-04-17",
+    "preferred_contact": "Text",
+    "relationship": "Friend",
+    "interactions": [
+      { "type": "Text", "note": "Game invite", "date": "2026-04-13" }
+    ]
   },
   {
     "id": 8,
     "name": "Mehjabin Karim",
     "picture": "https://i.ibb.co.com/TDnQr5P8/dollar-gill-TTRXjx-Mit8-unsplash.jpg",
     "email": "mehjabin.karim@gmail.com",
+    "phone": "+8801212345678",
     "days_since_contact": 16,
     "status": "overdue",
     "tags": ["freelance", "client turned friend"],
     "bio": "Started as a freelance client, now a good friend. Loves discussing business ideas.",
     "goal": 14,
-    "next_due_date": "2026-04-01"
+    "next_due_date": "2026-04-01",
+    "preferred_contact": "Call",
+    "relationship": "Client",
+    "interactions": [
+      { "type": "Call", "note": "Business discussion", "date": "2026-03-20" }
+    ]
   },
   {
     "id": 9,
     "name": "Hasan Mahmud",
     "picture": "https://i.ibb.co.com/XkJfJX51/robiul-islam-pailot-Auwn-Ec8f-Br-U-unsplash.jpg",
     "email": "hasan.mahmud@gmail.com",
+    "phone": "+8801112345678",
     "days_since_contact": 7,
     "status": "on-track",
     "tags": ["developer", "community"],
     "bio": "Met at a local dev meetup. We often discuss React and backend architecture.",
     "goal": 10,
-    "next_due_date": "2026-04-18"
+    "next_due_date": "2026-04-18",
+    "preferred_contact": "Video",
+    "relationship": "Friend",
+    "interactions": [
+      { "type": "Video", "note": "Tech discussion", "date": "2026-04-08" }
+    ]
   },
   {
     "id": 10,
     "name": "Sharmin Sultana",
     "picture": "https://i.ibb.co.com/rG4wFWDB/00franklin-lira-w-XQJEr9v0wg-unsplash.jpg",
     "email": "sharmin.sultana@gmail.com",
+    "phone": "+8801012345678",
     "days_since_contact": 15,
     "status": "overdue",
     "tags": ["family friend"],
     "bio": "Family friend for years. Always checks in during special occasions.",
     "goal": 14,
-    "next_due_date": "2026-04-02"
+    "next_due_date": "2026-04-02",
+    "preferred_contact": "Call",
+    "relationship": "Family",
+    "interactions": [
+      { "type": "Call", "note": "Family update", "date": "2026-03-25" }
+    ]
   },
   {
     "id": 11,
     "name": "Imran Kabir",
     "picture": "https://i.ibb.co.com/2YFB0R7c/gift-habeshaw-KBv5d-EN3-Qt-Y-unsplash.jpg",
     "email": "imran.kabir@gmail.com",
+    "phone": "+8801711111111",
     "days_since_contact": 11,
     "status": "almost due",
     "tags": ["startup", "mentor"],
     "bio": "Senior who guides me in tech and career decisions. Very practical advice.",
     "goal": 14,
-    "next_due_date": "2026-04-16"
+    "next_due_date": "2026-04-16",
+    "preferred_contact": "Call",
+    "relationship": "Mentor",
+    "interactions": [
+      { "type": "Call", "note": "Career advice", "date": "2026-04-05" }
+    ]
   },
   {
     "id": 12,
     "name": "Jannatul Ferdous",
     "picture": "https://i.ibb.co.com/QjFRTfkq/roth-melinda-g-Odqdh-U9p-WI-unsplash.jpg",
     "email": "jannatul.ferdous@gmail.com",
+    "phone": "+8801811111111",
     "days_since_contact": 6,
     "status": "on-track",
     "tags": ["design", "creative"],
     "bio": "Graphic designer friend. Helps me with UI ideas and branding.",
     "goal": 10,
-    "next_due_date": "2026-04-19"
+    "next_due_date": "2026-04-19",
+    "preferred_contact": "Text",
+    "relationship": "Friend",
+    "interactions": [
+      { "type": "Text", "note": "Shared UI idea", "date": "2026-04-12" }
+    ]
   },
   {
     "id": 13,
     "name": "Rakibul Hasan",
     "picture": "https://i.ibb.co.com/RTpNwqH1/wellington-ferreira-72-TE8c-WKXRY-unsplash.jpg",
     "email": "rakibul.hasan@gmail.com",
+    "phone": "+8801911111111",
     "days_since_contact": 19,
     "status": "overdue",
     "tags": ["football", "local friend"],
     "bio": "We play football every weekend. Haven’t met recently due to busy schedule.",
     "goal": 14,
-    "next_due_date": "2026-03-30"
+    "next_due_date": "2026-03-30",
+    "preferred_contact": "Call",
+    "relationship": "Friend",
+    "interactions": [
+      { "type": "Call", "note": "Match planning", "date": "2026-03-10" }
+    ]
   },
   {
     "id": 14,
     "name": "Moumita Das",
     "picture": "https://i.ibb.co.com/HL94Wrvf/michael-dam-m-EZ3-Po-FGs-k-unsplash.jpg",
     "email": "moumita.das@gmail.com",
+    "phone": "+8801211111111",
     "days_since_contact": 10,
     "status": "almost due",
     "tags": ["book club", "reading"],
     "bio": "Met in a book club. We exchange book recommendations regularly.",
     "goal": 14,
-    "next_due_date": "2026-04-17"
+    "next_due_date": "2026-04-17",
+    "preferred_contact": "Text",
+    "relationship": "Friend",
+    "interactions": [
+      { "type": "Text", "note": "Book suggestion", "date": "2026-04-07" }
+    ]
   }
 ]
