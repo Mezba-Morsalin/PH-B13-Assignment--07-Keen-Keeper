@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Arafat Hossain",
-    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "picture": "https://i.ibb.co.com/236ZQJQ1/ayman-ahmed-QZOd-T2j-DETU-unsplash.jpg",
     "email": "arafat.hossain@gmail.com",
     "days_since_contact": 18,
     "status": "overdue",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Nusrat Jahan",
-    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "picture": "https://i.ibb.co.com/ccbQd4XD/pervaiz-khan-ATr-n-YVn-Vpc-unsplash.jpg",
     "email": "nusrat.jahan@gmail.com",
     "days_since_contact": 12,
     "status": "almost due",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "Mahim Chowdhury",
-    "picture": "https://randomuser.me/api/portraits/men/51.jpg",
+    "picture": "https://i.ibb.co.com/93gqPTLH/shazaf-zafar-90-6-Egb-Agek-unsplash.jpg",
     "email": "mahim.chowdhury@gmail.com",
     "days_since_contact": 5,
     "status": "on-track",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "Farzana Akter",
-    "picture": "https://randomuser.me/api/portraits/women/65.jpg",
+    "picture": "https://i.ibb.co.com/wrBXVhv6/anil-sharma-S3i-OXq-Vlh5s-unsplash.jpg",
     "email": "farzana.akter@gmail.com",
     "days_since_contact": 21,
     "status": "overdue",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "Rafiul Islam",
-    "picture": "https://randomuser.me/api/portraits/men/77.jpg",
+    "picture": "https://i.ibb.co.com/KjPrFKh0/majhar-mj-V-e-FGq6c8-Yk-unsplash.jpg",
     "email": "rafiul.islam@gmail.com",
     "days_since_contact": 9,
     "status": "on-track",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "Tania Rahman",
-    "picture": "https://randomuser.me/api/portraits/women/29.jpg",
+    "picture": "https://i.ibb.co.com/XrYFqjNH/abhinav-roy-4j3u-Ocaxr-0-unsplash.jpg",
     "email": "tania.rahman@gmail.com",
     "days_since_contact": 13,
     "status": "almost due",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "name": "Sabbir Ahmed",
-    "picture": "https://randomuser.me/api/portraits/men/12.jpg",
+    "picture": "https://i.ibb.co.com/mCyYmb6v/bapi-debnath-Yw1-L0qa9m-Y-unsplash.jpg",
     "email": "sabbir.ahmed@gmail.com",
     "days_since_contact": 3,
     "status": "on-track",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "Mehjabin Karim",
-    "picture": "https://randomuser.me/api/portraits/women/18.jpg",
+    "picture": "https://i.ibb.co.com/TDnQr5P8/dollar-gill-TTRXjx-Mit8-unsplash.jpg",
     "email": "mehjabin.karim@gmail.com",
     "days_since_contact": 16,
     "status": "overdue",
@@ -94,5 +94,77 @@
     "bio": "Started as a freelance client, now a good friend. Loves discussing business ideas.",
     "goal": 14,
     "next_due_date": "2026-04-01"
+  },
+  {
+    "id": 9,
+    "name": "Hasan Mahmud",
+    "picture": "https://i.ibb.co.com/XkJfJX51/robiul-islam-pailot-Auwn-Ec8f-Br-U-unsplash.jpg",
+    "email": "hasan.mahmud@gmail.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["developer", "community"],
+    "bio": "Met at a local dev meetup. We often discuss React and backend architecture.",
+    "goal": 10,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 10,
+    "name": "Sharmin Sultana",
+    "picture": "https://i.ibb.co.com/rG4wFWDB/00franklin-lira-w-XQJEr9v0wg-unsplash.jpg",
+    "email": "sharmin.sultana@gmail.com",
+    "days_since_contact": 15,
+    "status": "overdue",
+    "tags": ["family friend"],
+    "bio": "Family friend for years. Always checks in during special occasions.",
+    "goal": 14,
+    "next_due_date": "2026-04-02"
+  },
+  {
+    "id": 11,
+    "name": "Imran Kabir",
+    "picture": "https://i.ibb.co.com/2YFB0R7c/gift-habeshaw-KBv5d-EN3-Qt-Y-unsplash.jpg",
+    "email": "imran.kabir@gmail.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["startup", "mentor"],
+    "bio": "Senior who guides me in tech and career decisions. Very practical advice.",
+    "goal": 14,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 12,
+    "name": "Jannatul Ferdous",
+    "picture": "https://i.ibb.co.com/QjFRTfkq/roth-melinda-g-Odqdh-U9p-WI-unsplash.jpg",
+    "email": "jannatul.ferdous@gmail.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["design", "creative"],
+    "bio": "Graphic designer friend. Helps me with UI ideas and branding.",
+    "goal": 10,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 13,
+    "name": "Rakibul Hasan",
+    "picture": "https://i.ibb.co.com/RTpNwqH1/wellington-ferreira-72-TE8c-WKXRY-unsplash.jpg",
+    "email": "rakibul.hasan@gmail.com",
+    "days_since_contact": 19,
+    "status": "overdue",
+    "tags": ["football", "local friend"],
+    "bio": "We play football every weekend. Haven’t met recently due to busy schedule.",
+    "goal": 14,
+    "next_due_date": "2026-03-30"
+  },
+  {
+    "id": 14,
+    "name": "Moumita Das",
+    "picture": "https://i.ibb.co.com/HL94Wrvf/michael-dam-m-EZ3-Po-FGs-k-unsplash.jpg",
+    "email": "moumita.das@gmail.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["book club", "reading"],
+    "bio": "Met in a book club. We exchange book recommendations regularly.",
+    "goal": 14,
+    "next_due_date": "2026-04-17"
   }
 ]
