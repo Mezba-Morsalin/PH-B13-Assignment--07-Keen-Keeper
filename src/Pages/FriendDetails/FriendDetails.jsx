@@ -16,7 +16,6 @@ const FriendDetails = () => {
     const {id} = useParams();
     const friendData = useLoaderData();
     const findFriend = friendData.find(friend => friend.id === Number(id))
-    
     const {handleCall, handleMassage, handleVideo, calls, texts, videos} = useContext(FriendsContext);
     return (
         <div className='w-11/12 lg:w-9/12 mx-auto mt-20'>
@@ -25,14 +24,8 @@ const FriendDetails = () => {
                     <div className='bg-white shadow p-6 rounded-2xl space-y-3'>
                         <img className='w-40 h-40 rounded-full' src={findFriend.picture} alt="" />
                         <h4 className='text-xl font-bold'>{findFriend.name}</h4>
-                        <p
-                className={
-                    findFriend.status === "overdue"
-                      ? "bg-red-500 text-white px-3 py-1 rounded-full w-26"
-                      : findFriend.status === "almost due"
-                      ? "bg-yellow-500 text-white px-3 py-1 rounded-full w-34"
-                      : "bg-[#244D3F] text-white px-3 py-1 rounded-full w-26"}>{findFriend.status}
-                </p>
+                        <p className={findFriend.status === "overdue"? "bg-red-500 text-white px-3 py-1 rounded-full w-26": findFriend.status === "almost due"? "bg-yellow-500 text-white px-3 py-1 rounded-full w-34": "bg-[#244D3F] text-white px-3 py-1 rounded-full w-26"}>{findFriend.status}
+                        </p>
                 <p className='text-[#64748B]'>{findFriend.bio}</p>
                 <p className='text-[#64748B]'>Preferred : {findFriend.email}</p>
                     </div>

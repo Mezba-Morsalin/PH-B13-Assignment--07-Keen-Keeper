@@ -1,12 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { FriendsContext } from '../../FriendsProvider/FriendsProvider';
-import {
-  PieChart,
-  Pie,
-  Tooltip,
-  ResponsiveContainer,
-  Sector
-} from 'recharts';
+import { PieChart, Pie, Tooltip, ResponsiveContainer, Sector } from 'recharts';
 
 const Stats = () => {
   const { calls, texts, videos } = useContext(FriendsContext);

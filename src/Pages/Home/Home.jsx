@@ -7,7 +7,6 @@ const Home = () => {
   return (
     <div>
       <Banner />
-
       <Suspense fallback={
         <div className="flex justify-center mt-10">
           <span className="loading loading-spinner loading-xl"></span>
@@ -15,7 +14,6 @@ const Home = () => {
       }>
         <Friends />
       </Suspense>
-
     </div>
   );
 };

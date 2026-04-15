@@ -1,16 +1,151 @@
-# React + Vite
+# 📌 Keen Keeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Keen Keeper** is a simple and clean React-based web application to help you manage and track your personal relationships. You can store friends, monitor interactions, and stay connected through calls, texts, and video interactions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
 
-## React Compiler
+🚀 **Live Site:** https://mezba-keen-keeper.netlify.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 👥 View and manage friends list
+* 📊 Track interactions (Call, Text, Video)
+* 📈 Visual stats using charts
+* 🕒 Timeline of interactions
+* 🔍 Filter interactions easily
+* 🔔 Toast notifications for actions
+* ⚡ Fast performance using Vite
+
+---
+
+## 🛠️ Tech Stack
+
+* React
+* React Router
+* Tailwind CSS
+* DaisyUI
+* Recharts
+* React Hot Toast
+
+---
+
+## 📂 Project Structure
+
+```
+keen-keeper/
+│
+├── public/
+│   ├── _redirects
+│   ├── favicon.svg
+│   ├── friends.json
+│   └── icons.svg
+│
+├── src/
+│   ├── assets/
+│   │   ├── call.png
+│   │   ├── text.png
+│   │   ├── video.png
+│   │   └── logos...
+│   │
+│   ├── components/
+│   │   ├── Layout/
+│   │   │   └── Layout.jsx
+│   │   └── Shared/
+│   │       ├── Banner/
+│   │       ├── Footer/
+│   │       ├── Navbar/
+│   │       └── Friends/
+│   │
+│   ├── Pages/
+│   │   ├── Home/
+│   │   ├── Timeline/
+│   │   ├── Stats/
+│   │   └── FriendDetails/
+│   │
+│   ├── FriendsProvider/
+│   │   └── FriendsProvider.jsx
+│   │
+│   ├── Err/
+│   │   └── Error.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone the repo
+git clone https://github.com/Mezba-Morsalin/PH-B13-Assignment--07-Keen-Keeper
+
+# Go to project folder
+cd keen-keeper
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
+```
+
+---
+
+## 🌐 Routing
+
+* `/` → Home
+* `/timeline` → Timeline
+* `/stats` → Stats
+* `/friends` → Friends List
+* `/friends/:id` → Friend Details
+
+---
+
+## 📊 Stats System
+
+* Calls, Texts, Videos are tracked using Context API
+* Data is visualized with Pie Chart
+* Shows "No Interaction Found" if empty
+
+---
+
+## 🧠 State Management
+
+* React Context API
+* Global state for:
+
+  * Calls
+  * Texts
+  * Videos
+
+---
+
+## 🎯 Future Improvements
+
+* 🔄 Sort by date
+* 📅 Add interaction history timeline animation
+* 🔐 Authentication system
+* ☁️ Backend integration
+
+---
+
+## 👨‍💻 Author
+
+**Mezba Morsalin**
+Frontend Developer (React Learner 🚀)
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
