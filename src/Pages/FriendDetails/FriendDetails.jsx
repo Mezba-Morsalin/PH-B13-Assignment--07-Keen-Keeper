@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import  { Toaster } from 'react-hot-toast';
 import { BiMessageDots } from 'react-icons/bi';
 import { CiVideoOn } from 'react-icons/ci';
 import { HiOutlineBellSnooze } from 'react-icons/hi2';
@@ -6,11 +7,14 @@ import { IoCallOutline } from 'react-icons/io5';
 import { LuArchiveRestore } from 'react-icons/lu';
 import { MdHistory, MdOutlineDeleteForever } from 'react-icons/md';
 import { useLoaderData, useParams } from 'react-router';
+import { FriendsContext } from '../../FriendsProvider/FriendsProvider';
 
 const FriendDetails = () => {
     const {id} = useParams();
     const friendData = useLoaderData();
     const findFriend = friendData.find(friend => friend.id === Number(id))
+    
+    const {handleCall, handleMassage, handleVideo} = useContext(FriendsContext);
     return (
         <div className='w-11/12 lg:w-9/12 mx-auto mt-20'>
             <div className='grid grid-cols-1 md:grid-cols-12 gap-10'>
@@ -64,13 +68,13 @@ const FriendDetails = () => {
                     <div className='bg-white shadow p-6 rounded-2xl space-y-3'>
                         <h3 className='text-[#244D3F] text-xl'>Quick Check-In</h3>
                         <div className='grid grid-cols-3 gap-8'>
-                            <div className='bg-[#F8FAFC] hover:bg-gray-300 transition duration-300 p-5 border border-gray-200 rounded-2xl cursor-pointer text-center'>
+                            <div onClick={() => handleCall(findFriend)} className='bg-[#F8FAFC] hover:bg-gray-300 transition duration-300 p-5 border border-gray-200 rounded-2xl cursor-pointer text-center'>
                                 <button><IoCallOutline></IoCallOutline> Call</button>
                             </div>
-                            <div className='bg-[#F8FAFC] hover:bg-gray-300 transition duration-300 p-5 border border-gray-200 rounded-2xl cursor-pointer text-center'>
+                            <div onClick={()=> handleMassage(findFriend)} className='bg-[#F8FAFC] hover:bg-gray-300 transition duration-300 p-5 border border-gray-200 rounded-2xl cursor-pointer text-center'>
                                 <button><BiMessageDots></BiMessageDots> Text</button>
                             </div>
-                           <div className='bg-[#F8FAFC] hover:bg-gray-300 transition duration-300 p-5 border border-gray-200 rounded-2xl cursor-pointer text-center'>
+                           <div onClick={()=> handleVideo(findFriend)} className='bg-[#F8FAFC] hover:bg-gray-300 transition duration-300 p-5 border border-gray-200 rounded-2xl cursor-pointer text-center'>
                              <button><CiVideoOn></CiVideoOn> Video</button>
                            </div>
                         </div>
@@ -84,6 +88,7 @@ const FriendDetails = () => {
                     </div>
                 </div>
             </div>
+            <Toaster></Toaster>
         </div>
     );
 };

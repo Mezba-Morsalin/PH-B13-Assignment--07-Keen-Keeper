@@ -1,4 +1,4 @@
-import { StrictMode } from 'react'
+import { StrictMode, Suspense } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
@@ -10,7 +10,10 @@ import Timeline from './Pages/Timeline/Timeline.jsx';
 import Stats from './Pages/Stats/Stats.jsx';
 import Error from './Err/Error.jsx';
 import FriendDetails from './Pages/FriendDetails/FriendDetails.jsx';
+import Friends from './components/Shared/Friends/Friends.jsx';
+import FriendsProvider from './FriendsProvider/FriendsProvider.jsx';
 
+const friendPromise = fetch('friends.json').then(res => res.json())
 const router = createBrowserRouter([
   {
     path: "/",
@@ -28,9 +31,16 @@ const router = createBrowserRouter([
       element : <Stats></Stats>
     },
     {
+      path : "friends",
+      element : <Suspense fallback = {<span className="loading loading-spinner loading-xl"></span>}>
+        <Friends friendPromise = {friendPromise}></Friends>
+      </Suspense>
+
+    },
+    {
       path : "friends/:id",
       element : <FriendDetails></FriendDetails>,
-      loader : () => fetch("friends.json").then(res => res.json()),
+      loader : () => fetch("/friends.json").then(res => res.json()),
     }
   ],
   errorElement : <Error></Error>
@@ -38,6 +48,8 @@ const router = createBrowserRouter([
 ]);
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider  router={router}></RouterProvider>
+    <FriendsProvider>
+      <RouterProvider  router={router}></RouterProvider>
+    </FriendsProvider>
   </StrictMode>,
 )
